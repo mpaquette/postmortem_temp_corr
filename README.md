@@ -26,8 +26,8 @@ We output
 - The voxel-wise signal multipliers; corrected_data/signal_multipliers.nii.gz
 
 
-## Spherical means of normalized signal
-![Spherical means of the ground truth normalized data, the arificially corrupted data and the corrected data.](images/spherical_means.png)
+## Spatial means of normalized signal
+![Spatial means of the ground truth normalized data, the arificially corrupted data and the corrected data.](images/spatial_means.png)
 
 ## Estimated alpha coefficients
 ![Ground truth vs estimated alpha coefficients.](images/alpha_coef_estimation.png)
