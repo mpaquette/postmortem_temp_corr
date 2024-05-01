@@ -36,5 +36,5 @@ We output
 ![Mean squared error for corrupted and corrected data with respect to the ground truth.](images/signal_mse.png)
 
 
-We note that the correction in this example is "noisy", it only uses 16 volumes to for the estimation and the "temperature" effects are large.  
-We also note that we are not fixing the alpha coefficient to 1 for the volumes used in the estimation.  
+We note that the correction in this example is "noisy", it only uses 16 volumes for the estimation and the "temperature" effects are large.  
+We also note that we are not fixing the alpha coefficient to 1 for the subset of volumes used in the estimation.  
