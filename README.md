@@ -2,7 +2,7 @@
 ## Michael Paquette, Cornelius Eichner, Christian Bock, and Alfred Anwander
 ### ISMRM2024, Program 2423
 
-This repo contains a short example of the presented method using in-vivo data with artificial diffusivity corruption.  
+This repo contains a short example of the presented method using in-vivo data with artificial diffusivity corruption (toy example).  
 The dataset was created from a single b=1000 shell from subject PT001_ses-1_acq-1 from the [Pentera 3T public dataset](https://zenodo.org/records/2602049)  
 
 
@@ -36,5 +36,3 @@ We output
 ![Mean squared error for corrupted and corrected data with respect to the ground truth.](images/signal_mse.png)
 
 
-We note that the correction in this example is "noisy", it only uses 16 volumes for the estimation and the "temperature" effects are large.  
-We also note that we are not fixing the alpha coefficient to 1 for the subset of volumes used in the estimation.  
