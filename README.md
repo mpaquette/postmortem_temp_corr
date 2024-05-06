@@ -11,14 +11,14 @@ The Ground truth data (1 b0 + 32 b1000) was corrupted to simulate temperature in
 We use the b0 and last 16 volumes ([see index file](corrupted_data/index.txt)) to estimate the steady-state diffusivities.  
 
 ```bash
-dti_temp_correction.py corrupted_data/corrupted.nii.gz \
-                       data/bval.txt \
-                       data/bvec.txt \
-                       corrupted_data/index.txt \
-                       corrected_data/corrected.nii.gz \
-                       corrected_data/estimated_coef.txt \
-                       corrected_data/signal_multipliers.nii.gz \
-                       --mask data/mask.nii.gz
+./dti_temp_correction.py corrupted_data/corrupted.nii.gz \
+                         data/bval.txt \
+                         data/bvec.txt \
+                         corrupted_data/index.txt \
+                         corrected_data/corrected.nii.gz \
+                         corrected_data/estimated_coef.txt \
+                         corrected_data/signal_multipliers.nii.gz \
+                         --mask data/mask.nii.gz
 ```
 We output 
 - The corrected data; corrected_data/corrected.nii.gz
